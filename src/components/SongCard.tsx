@@ -63,7 +63,7 @@ const SongCard = ({ song }: { song: Song }) => {
               <DialogTitle>{song.name}</DialogTitle>
               <DialogDescription hidden>{song.name} By {song.label}</DialogDescription>
             </DialogHeader>
-            <SongPlayer song={song} />
+            <SongPlayer song={song}/>
           </DialogContent>
         </Dialog>
       </div>
@@ -71,4 +71,4 @@ const SongCard = ({ song }: { song: Song }) => {
   );
 };
 
-export default SongCard;
+export default SongCard;  
